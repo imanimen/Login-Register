@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body {
+            padding: 20px;
+        }
+        div {
+            margin: 5px 0;
+        }
+        input[type=text], input[type=password] {
+            border:none;
+            outline:none;
+            background: #F4F6FC;
+            font-size:15px;
+            color:#8798AD;
+            padding: 10px 5px;
+            border-radius:5px;
+        }
+        button, a, input[type=submit] {
+            text-decoration: none;
+            background: #1E293B;
+            color: #ffffff;
+            padding: 10px 5px;
+            border: none;
+            border-radius: 3px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Login Page</h1>
+
+<form method="POST" action="/login">
+    <input type="text" name="username" placeholder="username">
+    <input type="password" name="password" placeholder="password">
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
